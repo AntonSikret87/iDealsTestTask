@@ -40,18 +40,7 @@ public class TestClass {
         driver.findElement(By.id("lst-ib")).sendKeys("iDeals");
         driver.findElement(By.id("lst-ib")).submit();
        // driver.findElement(By.partialLinkText("iDeals™ Virtual Data Rooms")).click();
-//        List<WebElement> foundLinks = driver.findElements(By.cssSelector(".r>a"));
-//        for(WebElement link : foundLinks){
-//           // System.out.println(link.getText());
-//            if(!link.getText().contains("iDeals™ Virtual Data Rooms")) {
-//             //   System.out.println("My link " + link.getText());
-//                link.click();
-//                break;
-//
-//            } else  {
-//                System.out.println("Link \'iDeals\' not found in search results");
-//            }
-//        }
+
        //String findLink ="iDeals™ Virtual Data Rooms";
         String searchedLink = "https://www.idealsvdr.com/";
 
